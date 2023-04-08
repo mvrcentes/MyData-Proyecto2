@@ -15,6 +15,7 @@
 		47D39C5329E118D500A5CF7D /* SwiftChallenge23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C5229E118D500A5CF7D /* SwiftChallenge23UITests.swift */; };
 		47D39C5529E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C5429E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift */; };
 		47D39C6329E118F700A5CF7D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6229E118F700A5CF7D /* Register.swift */; };
+		47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		47D39C5229E118D500A5CF7D /* SwiftChallenge23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChallenge23UITests.swift; sourceTree = "<group>"; };
 		47D39C5429E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChallenge23UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		47D39C6229E118F700A5CF7D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMoreInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				47D39C6229E118F700A5CF7D /* Register.swift */,
+				47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
+				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
 				47D39C3A29E118D400A5CF7D /* ContentView.swift in Sources */,
 				47D39C3829E118D400A5CF7D /* SwiftChallenge23App.swift in Sources */,
 			);
