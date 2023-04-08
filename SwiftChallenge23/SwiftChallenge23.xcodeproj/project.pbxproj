@@ -19,6 +19,7 @@
 		47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6729E1198A00A5CF7D /* Profile.swift */; };
 		47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6B29E119CC00A5CF7D /* ButtonView.swift */; };
 		47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6D29E119E800A5CF7D /* PlaceCard.swift */; };
+		47D39C7029E127AC00A5CF7D /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6F29E127AC00A5CF7D /* PlaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		47D39C6729E1198A00A5CF7D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		47D39C6B29E119CC00A5CF7D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		47D39C6D29E119E800A5CF7D /* PlaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCard.swift; sourceTree = "<group>"; };
+		47D39C6F29E127AC00A5CF7D /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				47D39C6B29E119CC00A5CF7D /* ButtonView.swift */,
 				47D39C6D29E119E800A5CF7D /* PlaceCard.swift */,
+				47D39C6F29E127AC00A5CF7D /* PlaceView.swift */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			files = (
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
 				47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */,
+				47D39C7029E127AC00A5CF7D /* PlaceView.swift in Sources */,
 				47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */,
 				47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */,
 				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
