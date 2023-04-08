@@ -20,6 +20,9 @@
 		47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6B29E119CC00A5CF7D /* ButtonView.swift */; };
 		47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6D29E119E800A5CF7D /* PlaceCard.swift */; };
 		47D39C7029E127AC00A5CF7D /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6F29E127AC00A5CF7D /* PlaceView.swift */; };
+		47D39C7329E12C1900A5CF7D /* RecordCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C7229E12C1900A5CF7D /* RecordCard.swift */; };
+		47D39C7529E12C4C00A5CF7D /* RecordDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C7429E12C4C00A5CF7D /* RecordDetailedView.swift */; };
+		47D39C7729E12C6B00A5CF7D /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C7629E12C6B00A5CF7D /* RecordsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		47D39C6B29E119CC00A5CF7D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		47D39C6D29E119E800A5CF7D /* PlaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCard.swift; sourceTree = "<group>"; };
 		47D39C6F29E127AC00A5CF7D /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
+		47D39C7229E12C1900A5CF7D /* RecordCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCard.swift; sourceTree = "<group>"; };
+		47D39C7429E12C4C00A5CF7D /* RecordDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailedView.swift; sourceTree = "<group>"; };
+		47D39C7629E12C6B00A5CF7D /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,11 +112,12 @@
 		47D39C3629E118D400A5CF7D /* SwiftChallenge23 */ = {
 			isa = PBXGroup;
 			children = (
+				47D39C6129E118DF00A5CF7D /* Scheme */,
 				47D39C6929E119B700A5CF7D /* Places */,
 				47D39C6629E1197E00A5CF7D /* Profile */,
+				47D39C7129E12BFF00A5CF7D /* Register */,
 				47D39C3729E118D400A5CF7D /* SwiftChallenge23App.swift */,
 				47D39C3929E118D400A5CF7D /* ContentView.swift */,
-				47D39C6129E118DF00A5CF7D /* Scheme */,
 				47D39C3B29E118D400A5CF7D /* Assets.xcassets */,
 				47D39C3D29E118D400A5CF7D /* Preview Content */,
 			);
@@ -167,6 +174,16 @@
 				47D39C6F29E127AC00A5CF7D /* PlaceView.swift */,
 			);
 			path = Places;
+			sourceTree = "<group>";
+		};
+		47D39C7129E12BFF00A5CF7D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				47D39C7229E12C1900A5CF7D /* RecordCard.swift */,
+				47D39C7429E12C4C00A5CF7D /* RecordDetailedView.swift */,
+				47D39C7629E12C6B00A5CF7D /* RecordsView.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,8 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
+				47D39C7729E12C6B00A5CF7D /* RecordsView.swift in Sources */,
+				47D39C7529E12C4C00A5CF7D /* RecordDetailedView.swift in Sources */,
 				47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */,
 				47D39C7029E127AC00A5CF7D /* PlaceView.swift in Sources */,
+				47D39C7329E12C1900A5CF7D /* RecordCard.swift in Sources */,
 				47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */,
 				47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */,
 				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
