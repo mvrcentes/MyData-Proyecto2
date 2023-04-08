@@ -16,6 +16,7 @@
 		47D39C5529E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C5429E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift */; };
 		47D39C6329E118F700A5CF7D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6229E118F700A5CF7D /* Register.swift */; };
 		47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */; };
+		47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6729E1198A00A5CF7D /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		47D39C5429E118D500A5CF7D /* SwiftChallenge23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChallenge23UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		47D39C6229E118F700A5CF7D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMoreInfo.swift; sourceTree = "<group>"; };
+		47D39C6729E1198A00A5CF7D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		47D39C3629E118D400A5CF7D /* SwiftChallenge23 */ = {
 			isa = PBXGroup;
 			children = (
+				47D39C6629E1197E00A5CF7D /* Profile */,
 				47D39C3729E118D400A5CF7D /* SwiftChallenge23App.swift */,
 				47D39C3929E118D400A5CF7D /* ContentView.swift */,
 				47D39C6129E118DF00A5CF7D /* Scheme */,
@@ -139,6 +142,14 @@
 				47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */,
 			);
 			path = Scheme;
+			sourceTree = "<group>";
+		};
+		47D39C6629E1197E00A5CF7D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				47D39C6729E1198A00A5CF7D /* Profile.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
+				47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */,
 				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
 				47D39C3A29E118D400A5CF7D /* ContentView.swift in Sources */,
 				47D39C3829E118D400A5CF7D /* SwiftChallenge23App.swift in Sources */,
