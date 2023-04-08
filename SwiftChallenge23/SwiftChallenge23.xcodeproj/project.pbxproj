@@ -17,6 +17,7 @@
 		47D39C6329E118F700A5CF7D /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6229E118F700A5CF7D /* Register.swift */; };
 		47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */; };
 		47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6729E1198A00A5CF7D /* Profile.swift */; };
+		47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6B29E119CC00A5CF7D /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		47D39C6229E118F700A5CF7D /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
 		47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMoreInfo.swift; sourceTree = "<group>"; };
 		47D39C6729E1198A00A5CF7D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		47D39C6B29E119CC00A5CF7D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		47D39C3629E118D400A5CF7D /* SwiftChallenge23 */ = {
 			isa = PBXGroup;
 			children = (
+				47D39C6929E119B700A5CF7D /* Places */,
 				47D39C6629E1197E00A5CF7D /* Profile */,
 				47D39C3729E118D400A5CF7D /* SwiftChallenge23App.swift */,
 				47D39C3929E118D400A5CF7D /* ContentView.swift */,
@@ -150,6 +153,14 @@
 				47D39C6729E1198A00A5CF7D /* Profile.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		47D39C6929E119B700A5CF7D /* Places */ = {
+			isa = PBXGroup;
+			children = (
+				47D39C6B29E119CC00A5CF7D /* ButtonView.swift */,
+			);
+			path = Places;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			files = (
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
 				47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */,
+				47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */,
 				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
 				47D39C3A29E118D400A5CF7D /* ContentView.swift in Sources */,
 				47D39C3829E118D400A5CF7D /* SwiftChallenge23App.swift in Sources */,
