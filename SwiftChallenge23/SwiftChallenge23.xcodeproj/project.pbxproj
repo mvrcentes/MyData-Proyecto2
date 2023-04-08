@@ -18,6 +18,7 @@
 		47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */; };
 		47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6729E1198A00A5CF7D /* Profile.swift */; };
 		47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6B29E119CC00A5CF7D /* ButtonView.swift */; };
+		47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D39C6D29E119E800A5CF7D /* PlaceCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		47D39C6429E1194C00A5CF7D /* RegisterMoreInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterMoreInfo.swift; sourceTree = "<group>"; };
 		47D39C6729E1198A00A5CF7D /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		47D39C6B29E119CC00A5CF7D /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		47D39C6D29E119E800A5CF7D /* PlaceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				47D39C6B29E119CC00A5CF7D /* ButtonView.swift */,
+				47D39C6D29E119E800A5CF7D /* PlaceCard.swift */,
 			);
 			path = Places;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				47D39C6329E118F700A5CF7D /* Register.swift in Sources */,
 				47D39C6829E1198A00A5CF7D /* Profile.swift in Sources */,
 				47D39C6C29E119CC00A5CF7D /* ButtonView.swift in Sources */,
+				47D39C6E29E119E800A5CF7D /* PlaceCard.swift in Sources */,
 				47D39C6529E1194C00A5CF7D /* RegisterMoreInfo.swift in Sources */,
 				47D39C3A29E118D400A5CF7D /* ContentView.swift in Sources */,
 				47D39C3829E118D400A5CF7D /* SwiftChallenge23App.swift in Sources */,
