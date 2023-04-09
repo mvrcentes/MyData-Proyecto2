@@ -5,7 +5,9 @@
 //  Created by Marco Ramirez on 7/04/23.
 //
 
-
+/**
+The ContentView is the main entry point of the application and it's responsible for setting up a TabView with three tabs: RecordsView, PlacesView and Profile.
+*/
 
 import SwiftUI
 

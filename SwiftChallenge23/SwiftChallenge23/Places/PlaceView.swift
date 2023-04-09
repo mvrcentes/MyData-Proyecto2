@@ -5,6 +5,21 @@
 //  Created by Marco Ramirez on 7/04/23.
 //
 
+/**
+ PlacesView is a SwiftUI view that displays a list of places along with buttons for navigation and calling.
+ 
+ The view receives the places information through a private constant entities, which is a 2D array of strings that represents each place's information. Each inner array contains four elements: the place ID, name, location, and phone number. (This could be from a Database but the app don't have access to internet)
+ 
+ The view consists of a ScrollView that displays the list of places as PlaceCard views arranged in a LazyVGrid with three columns. Each PlaceCard view is wrapped in a button that updates the selectedEntityIndex state variable to indicate which place is selected. The selected place's information is then displayed in the buttons below the list.
+ 
+
+ - Parameters:
+     - selectedEntityIndex: A state variable of type Int that represents the index of the selected place.
+     - selectedEntity: An optional array of strings that represents the information of the selected place.
+
+ Note: The view assumes that the entities array has at least one element.
+ */
+
 import SwiftUI
 
 private let entities = [
@@ -34,7 +49,7 @@ struct PlacesView: View {
                             selectedEntityIndex = index
                         }  label: {
                             PlaceCard(entity: entities[index][1])
-                        }
+                        }.aspectRatio(1.5, contentMode: .fill)
                     }
                 }.padding(15)
             }
@@ -54,4 +69,3 @@ struct PlacesView_Previews: PreviewProvider {
         PlacesView()
     }
 }
-

@@ -5,6 +5,15 @@
 //  Created by Marco Ramirez on 7/04/23.
 //
 
+/**
+A view that displays a list of medical records.
+
+Use this view to display a list of medical records. The RecordsView struct declares a private constant array of Register instances that are used to store the medical records. The view uses the NavigationView and List views to display the medical records in a list. Each record is represented by a RecordCard view that displays basic information about the record. When the user taps on a record, they are taken to a detailed view of the record using the NavigationLink and RecordDetailedViw views.
+
+Example:
+let recordsView = RecordsView()
+*/
+
 import SwiftUI
 
 private let registers = [

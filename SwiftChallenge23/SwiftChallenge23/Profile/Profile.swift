@@ -5,11 +5,16 @@
 //  Created by Marco Ramirez on 7/04/23.
 //
 
+/**
+ A view that displays the user's profile information, including a profile picture, name, weight, body mass index, height, and any addictions.
+ */
+
 import SwiftUI
 
 struct Profile: View {
     var body: some View {
         VStack (alignment: .leading){
+            // Profile picture and name
             HStack {
                 Image(systemName: "person.fill").resizable().frame(width: 100, height: 100, alignment: .center)
                     .cornerRadius(10)
@@ -17,7 +22,7 @@ struct Profile: View {
                 Text("Name Name")
                     .font(.title)
             }
-            
+            // User data
             VStack (alignment: .leading){
                 VStack(alignment: .leading){
                     Text("Weight").font(.system(size: 24)).bold()
@@ -47,4 +52,3 @@ struct Profile_Previews: PreviewProvider {
         Profile()
     }
 }
-

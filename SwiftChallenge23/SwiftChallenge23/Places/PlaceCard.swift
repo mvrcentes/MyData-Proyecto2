@@ -6,14 +6,15 @@
 //
 
 /**
- A SwiftUI View that displays a card with an entity name.
+ A view that displays a button with an image and a text.
  
- Use this View to display an entity name on a colored card with a fixed size.
+ Use this view to display a button with a predefined image and text. The ButtonView struct declares two constant properties of type String that are used to store the icon and text to be displayed in the button. The view uses the Button and HStack views to display the icon and text next to each other in the button.
+ Example:
+ let button = ButtonView(icon: "car", text: "Drive")
  
- Example usage:
  - Parameters:
-     - entity: The name of the entity to display on the card.
- 
+ - icon: A string that represents the name of the system image to be used as the icon for the button.
+ - text: A string that represents the text to be displayed next to the icon on the button.
  */
 
 import SwiftUI
@@ -30,7 +31,6 @@ struct PlaceCard: View {
                     .foregroundColor(.white)
                     .padding(15)
             }
-            .frame(width: 150, height: 100, alignment: .center)
         }
 }
 
@@ -39,4 +39,3 @@ struct PlaceCard_Previews: PreviewProvider {
         PlaceCard(entity: "hospital 1")
     }
 }
-
